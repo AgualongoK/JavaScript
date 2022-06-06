@@ -25,5 +25,7 @@ console.log(isNaN (edad));
 
 console.log("Mi nombre es " + nombre + " y tengo " + edad + " anios");
 
+// llamo al contenido de la variable 
+console.log(`Mi nombre es ${nombre} ${apellido} y tengo ${edad} anios`);
 
 
