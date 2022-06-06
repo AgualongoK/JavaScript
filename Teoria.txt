@@ -1,0 +1,8 @@
+JavaScript
+
+-Codigo en visual studio code
+
+-Descargar las extensiones
+
+prettier
+material icon theme

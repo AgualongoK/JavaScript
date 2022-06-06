@@ -16,3 +16,14 @@ apellido = "Martin"; // String
 // comprobacion de tipos
 console.log(typeof nombreObj);
 
+// isNaN --> is not a number T/F
+console.log(isNaN (nombre));
+console.log(isNaN (edad));
+
+// Ejercicio: salida por consola
+// Mi nombre es XXX ZZZ y tengo CC años
+
+console.log("Mi nombre es " + nombre + " y tengo " + edad + " anios");
+
+
+
