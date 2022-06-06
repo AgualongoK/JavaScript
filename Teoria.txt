@@ -6,3 +6,7 @@ JavaScript
 
 prettier
 material icon theme
+
+-Métodos/funciones
+-Sincrono
+-Asincrono

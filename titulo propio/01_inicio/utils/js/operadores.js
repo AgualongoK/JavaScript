@@ -70,7 +70,11 @@ console.log(igual);
 
 // Metodos/funciones
 alert(`Bienvenido ${nombre}`);
-//confirm():
+let confirmacion = confirm("¿Segurp que quieres continuar?");
+console.log(confirmacion);
+
+prompt("introduce un dato a trabajar");
+
 
 
 
