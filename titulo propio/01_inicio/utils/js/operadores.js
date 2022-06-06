@@ -98,23 +98,20 @@ let numero2Ej = prompt(`Por favor ${nombreEj + ' ' + apellidoEj}, introduce otro
 
 let pregunta = confirm(`${nombreEj + ' ' + apellidoEj}, ¿quiere realizar alguna operacion?`);
 
+if (pregunta) {
+    sumaEj = Number(numero1Ej) + Number(numero2Ej);
+    resta = numero1Ej - numero2Ej;
+    multiplicacion = numero1Ej * numero2Ej;
+    division = numero1Ej / numero2Ej;
+    modulo = numero1Ej % numero2Ej;
 
-suma = numero1Ej + numero2Ej;
-resta = numero1Ej - numero2Ej;
-multiplicacion = numero1Ej * numero2Ej;
-division = numero1Ej / numero2Ej;
-modulo = numero1Ej % numero2Ej;
+    alert(`La suma de los numeros es ${suma}` + `\nLa multiplicaciones de los numeros es ${multiplicacion}` + `\nLa resta de los numeros es ${resta}` + `\nLa division de los numeros es ${division}` + `\nEl modulo de los numeros es ${modulo}`);
+    /* alert(`La multiplicaciones de los numeros es ${multiplicacion}`);
+    alert(`La resta de los numeros es ${resta}`);
+    alert(`La division de los numeros es ${division}`);
+    alert(`El modulo de los numeros es ${modulo}`); */
 
-alert(`La suma de los numeros es ${suma}` + ` | La multiplicaciones de los numeros es ${multiplicacion}` + ` | La resta de los numeros es ${resta}` + ` | La division de los numeros es ${division}` + ` | El modulo de los numeros es ${modulo}`);
-/* alert(`La multiplicaciones de los numeros es ${multiplicacion}`);
-alert(`La resta de los numeros es ${resta}`);
-alert(`La division de los numeros es ${division}`);
-alert(`El modulo de los numeros es ${modulo}`); */
-
-
-
-
-
-
-
+} else{
+    alert(`${nombreEj + ' ' + apellidoEj}, hasta pronto`);
+}
 
