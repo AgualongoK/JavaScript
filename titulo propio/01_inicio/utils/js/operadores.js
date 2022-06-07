@@ -1,3 +1,5 @@
+/*
+
 // operadores aritmeticos
 let numero1 = 6;
 let numero2 = 10;
@@ -90,6 +92,8 @@ console.log(confirmacion); */
 // resta: xxx
 // modulo: xxx
 
+/*
+
 let nombreEj = prompt("Introduzca su nombre");
 let apellidoEj = prompt("Introduzca su apellido");
 
@@ -109,9 +113,11 @@ if (pregunta) {
     /* alert(`La multiplicaciones de los numeros es ${multiplicacion}`);
     alert(`La resta de los numeros es ${resta}`);
     alert(`La division de los numeros es ${division}`);
-    alert(`El modulo de los numeros es ${modulo}`); */
+    alert(`El modulo de los numeros es ${modulo}`);
 
 } else{
     alert(`${nombreEj + ' ' + apellidoEj}, hasta pronto`);
 }
+
+*/
 
