@@ -73,9 +73,8 @@ if(!isNaN(Number(num1)) && !isNaN(Number(num2)) && num1 > 0 && num2 > 0){
             console.log("operacion desconocida");
             break;
     }
-    
+
 
 } else{
     console.log('Alguno de los datos es incorrecto');
 }
-
