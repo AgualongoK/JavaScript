@@ -1,3 +1,5 @@
+
+/*
 // estructura if / if else
 if (true) {
     console.log("La respuesta es true");
@@ -7,7 +9,7 @@ if (true) {
 
 let nota = 5;
 
-/*
+
 if (nota >=5){
     console.log("El examen está aprobado");
 }else{
@@ -21,9 +23,9 @@ nota ? console.log('examen aprobado') : console.log('examen suspenso');
 let acierto = true;
 true & console.log("examen aprobado");
 
-*/
 
-/*
+
+
 nota = 2;
 switch (nota) {
     case 1:
@@ -37,9 +39,9 @@ switch (nota) {
         break;
     /*default:
         console.log("dato incorrecto");
-        break;*/
+        break;
 
-/* 
+
 Pedir por prompt dos numeros
 Pedir por prompt una operacion (suma, resta, division, multiplicaciones)
 
@@ -79,22 +81,21 @@ if(!isNaN(Number(num1)) && !isNaN(Number(num2)) && num1 > 0 && num2 > 0){
     console.log('Alguno de los datos es incorrecto');
 }
 
-*/
 
-/* 
 //estructura del while
 let numero = 12;
 while (numero > 10){
     console.log("numero mayor que 10");
     numero--;
 };
-*/
 
-/*
+
+
 Ejercicio: pedir un numero por prompt y mostrar por consola todos los numeros
 desde el introducido hasta 0.
 En el caso de ser un numero negativo saltara una alerta.
-*/
+
+
 
 let numero1 = prompt("Introduzca un numero");
 
@@ -107,9 +108,9 @@ if(!isNaN(Number(numero1)) && numero1 > 0){
     alert("ERROR");
 }
 
-/*
+
 Ejercicio: pedir por consola dos numeros y sacar por consola todos los numeros entre ellos
-*/
+
 
 let numUno = prompt("introduce un numero");
 let numDos = prompt("introduce un numero");
@@ -131,4 +132,43 @@ else if(numUno > numDos){
 while(max > min){
     console.log(max);
     max--;
-}
+} 
+
+*/
+
+//for -- repeticiones sobre estructuras --> array
+
+let numeros = [1,2,3,4,5,6,7,8]; // tipo number
+/*
+console.log(numeros[2]);
+console.log(numeros.length);
+
+for (let index = 0; index < numeros.length; index++) {
+    console.log(numeros[index]);
+} */
+
+let posicion = 0;
+numeros.forEach((element) => {
+
+    //saca los numeros pares del array
+    /*
+    if(element%2 == 0){
+        console.log(element);
+    }
+    */
+
+    //saca los numeros situados en las posiciones pares del arrays
+   if(posicion % 2 == 0){
+       console.log(element);
+   }
+   posicion++;
+    
+});
+
+//una manera mas facil evitando un incrementador
+
+numeros.forEach((element, indice) => {
+   if(indice % 2 == 0){
+       console.log(element);
+   }
+});
