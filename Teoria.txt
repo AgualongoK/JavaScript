@@ -2,11 +2,38 @@ JavaScript
 
 -Codigo en visual studio code
 
--Descargar las extensiones
+-Descargar las extensiones para Visual Studio Code:
 
-prettier
-material icon theme
+-Prettier - Code formatter
+-Material icon theme
+-Rainbow Brackets
 
 -Métodos/funciones
 -Sincrono
 -Asincrono
+
+-Funciones de flecha.
+
+-Estructuras de control: if, if else, while, do while, for, foreach (especial) for of, for on, break, goto.
+
+-If ternario:
+
+	condicion ? true : false
+	nota ? console.log('examen aprobado') : console.log('examen suspenso');
+
+-Else if ternario:
+	
+	let nota = 5;
+	ss = <5;
+	ap = 5,6,7;
+	nt = 7,8,9,10
+	nota < 5 ? AP : SS;
+	nota < 5 ? SS : nota < 7 ? AP : NT; 
+
+Si en el if escribimos un &, significa que solo vamos a valorar el true.
+
+Comentar rapido un texto seleccionado: alt + shift + a
+
+
+For in: recorro las posiciones
+For of: toma los valores
