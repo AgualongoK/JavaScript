@@ -1,6 +1,7 @@
 let boton_agregar = document.querySelector("#boton_agregar");
 let input_agregar = document.querySelector("#texto_li");
-
+let contador = 0;
+let spanPulsaciones = 0;
 boton_agregar.addEventListener("click", (element) => {
   console.log(element);
 });
@@ -10,9 +11,13 @@ input_agregar.addEventListener("keydown", (event) => {
     //console.log(event,key);
 
     //sacar el contenido del input
-    console.log(input_agregar.value);
+    //console.log(input_agregar.value);
     
+    contador++;
+    spanPulsaciones.innerTex = contador;
 });
+
+
 
 
 
