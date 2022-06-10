@@ -1,13 +1,12 @@
 let array = [1,2,3,4,5,6,7,8,9,10];
 let contador = 0;
 
+_.shuffle(array);
 /* 
 Iterar por todos los elementos dentro de un array utilizando while y mostrarlos en pantalla.
 while (contador < array.length) {
-    for (let index = 0; index < array.length; index++) {
-        console.log(array[index]);
+        console.log(array[contador]);
         contador++;
-    }
 }
 
 Iterar por todos los elementos dentro de un array utilizando for y mostrarlos en pantalla.
